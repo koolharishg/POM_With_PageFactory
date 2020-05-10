@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4936" started-at="2020-05-05T08:07:36Z" finished-at="2020-05-05T08:07:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4936" started-at="2020-05-05T08:07:36Z" finished-at="2020-05-05T08:07:41Z">
+      <class name="com.masti.apiautomation.API_Automation.getResponseCode">
+        <test-method status="PASS" signature="testBody()[pri:0, instance:com.masti.apiautomation.API_Automation.getResponseCode@6adede5]" name="testBody" duration-ms="3830" started-at="2020-05-05T13:37:36Z" finished-at="2020-05-05T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:com.masti.apiautomation.API_Automation.getResponseCode@6adede5]" name="testResponseCode" duration-ms="1069" started-at="2020-05-05T13:37:40Z" finished-at="2020-05-05T13:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+      </class> <!-- com.masti.apiautomation.API_Automation.getResponseCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
