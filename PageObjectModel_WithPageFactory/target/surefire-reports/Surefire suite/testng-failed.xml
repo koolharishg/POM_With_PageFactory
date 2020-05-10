@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.facebook.pagefactory.testcases.ChangePasswordTest">
+        <methods>
+          <include name="quit"/>
+          <include name="ChangePassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.facebook.pagefactory.testcases.ChangePasswordTest -->
+      <class name="com.facebook.pagefactory.testcases.LoginTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.facebook.pagefactory.testcases.LoginTest -->
+      <class name="com.facebook.pagefactory.testcases.ProfileTest">
+        <methods>
+          <include name="testProfile"/>
+        </methods>
+      </class> <!-- com.facebook.pagefactory.testcases.ProfileTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

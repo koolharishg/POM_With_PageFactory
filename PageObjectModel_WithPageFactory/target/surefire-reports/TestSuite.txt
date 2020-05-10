@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 36.882 s <<< FAILURE! - in TestSuite
+ChangePassword(com.facebook.pagefactory.testcases.ChangePasswordTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.facebook.pagefactory.testcases.ChangePasswordTest.ChangePassword(ChangePasswordTest.java:28)
+
+quit(com.facebook.pagefactory.testcases.ChangePasswordTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.facebook.pagefactory.testcases.ChangePasswordTest.quit(ChangePasswordTest.java:62)
+
